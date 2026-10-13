@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wenjie (Owen) Wu | Data Scientist & Analyst</title>
+  <meta
+    name="description"
+    content="Personal portfolio for Wenjie (Owen) Wu, Data Scientist and Analyst with an MS in Biostatistics and Data Science."
+  >
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Wenjie (Owen) Wu | Data Scientist & Analyst">
+  <meta
+    property="og:description"
+    content="Data Scientist and Analyst with an MS in Biostatistics and Data Science from Columbia University."
+  >
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <!-- Built from src/input.css + tailwind.config.js; rebuild after changing classes:
+       npx tailwindcss@3.4.17 -i src/input.css -o styles.css --minify -->
+  <link rel="stylesheet" href="./styles.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background:
+        radial-gradient(circle at top, rgba(15, 23, 42, 0.04), transparent 28%),
+        linear-gradient(180deg, #f9f9f9 0%, #f8fafc 55%, #f4f4f5 100%);
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .reveal.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body class="bg-[#F9F9F9] font-sans text-gray-800 antialiased">
+  <header class="sticky top-0 z-50 border-b border-gray-200 bg-white/80 backdrop-blur-md">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <a href="#hero" class="text-base font-bold tracking-tight text-gray-800 sm:text-lg">
+        Wenjie (Owen) Wu
+      </a>
+      <button
+        id="menu-button"
+        class="inline-flex items-center justify-center rounded-full border border-gray-200 bg-white p-2 text-gray-600 transition hover:bg-gray-100 md:hidden"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4A1 1 0 013 5zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm1 4a1 1 0 100 2h12a1 1 0 100-2H4z" clip-rule="evenodd" />
+        </svg>
+      </button>
+      <div class="hidden items-center gap-1 md:flex">
+        <a href="#about" class="nav-link rounded-full px-4 py-2 text-sm font-medium text-gray-600 transition hover:bg-gray-100 hover:text-gray-800">About</a>
+        <a href="#expertise" class="nav-link rounded-full px-4 py-2 text-sm font-medium text-gray-600 transition hover:bg-gray-100 hover:text-gray-800">Expertise</a>
+        <a href="#experience-skills" class="nav-link rounded-full px-4 py-2 text-sm font-medium text-gray-600 transition hover:bg-gray-100 hover:text-gray-800">Experience</a>
+        <a href="#portfolio" class="nav-link rounded-full px-4 py-2 text-sm font-medium text-gray-600 transition hover:bg-gray-100 hover:text-gray-800">Portfolio</a>
+      </div>
+    </nav>
+    <div id="mobile-menu" class="hidden border-t border-gray-200 bg-white/95 backdrop-blur-md md:hidden">
+      <div class="mx-auto flex max-w-7xl flex-col px-4 py-3 sm:px-6">
+        <a href="#about" class="nav-link rounded-2xl px-4 py-3 text-sm font-medium text-gray-600 transition hover:bg-gray-100 hover:text-gray-800">About</a>
+        <a href="#expertise" class="nav-link rounded-2xl px-4 py-3 text-sm font-medium text-gray-600 transition hover:bg-gray-100 hover:text-gray-800">Expertise</a>
+        <a href="#experience-skills" class="nav-link rounded-2xl px-4 py-3 text-sm font-medium text-gray-600 transition hover:bg-gray-100 hover:text-gray-800">Experience</a>
+        <a href="#portfolio" class="nav-link rounded-2xl px-4 py-3 text-sm font-medium text-gray-600 transition hover:bg-gray-100 hover:text-gray-800">Portfolio</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
+      <div class="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[1.15fr_0.85fr]">
+        <div class="reveal" id="about">
+          <h1 class="max-w-4xl text-4xl font-extrabold tracking-tight text-gray-800 sm:text-5xl lg:text-6xl lg:leading-[1.05]">
+            Translating Complex Data into Actionable Business Insights.
+          </h1>
+          <p class="mt-8 max-w-3xl text-lg leading-8 text-gray-500 sm:text-xl">
+            I am a Data Scientist &amp; Analyst with an MS in Biostatistics and Data Science at Columbia University. I specialize in bridging technical depth with business context through Machine Learning, statistical modeling, and scalable data pipelines. From driving user growth to improving decision quality, I focus on delivering analysis that creates measurable business impact.
+          </p>
+          <div class="mt-10">
+            <a
+              href="#portfolio"
+              class="inline-flex items-center justify-center rounded-full bg-gray-900 px-6 py-3.5 text-sm font-semibold text-gray-100 transition duration-300 hover:-translate-y-0.5 hover:bg-gray-800"
+            >
+              View My Work
+            </a>
+          </div>
+        </div>
+
+        <div class="reveal flex justify-center lg:justify-end">
+          <div class="w-full max-w-md lg:max-w-lg">
+            <!--  -->
+            <img src="./profile-photo.jpg" class="w-full rounded-2xl shadow-md object-cover" alt="Wenjie Wu">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="expertise" class="px-4 py-8 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-7xl">
+        <div class="reveal max-w-3xl">
+          <p class="text-sm font-semibold uppercase tracking-[0.2em] text-gray-700">Expertise</p>
+          <h2 class="mt-4 text-3xl font-bold tracking-tight text-gray-800 sm:text-4xl">
+            A practical mix of modeling, analytics, data systems, and experimentation.
+          </h2>
+          <p class="mt-4 text-base leading-8 text-gray-500 sm:text-lg">
+            My work sits at the intersection of analytical rigor and product-minded execution, spanning statistical inference, machine learning, ETL workflows, and business-facing reporting.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience-skills" class="px-4 py-16 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-7xl">
+        <div class="grid gap-12 lg:grid-cols-2 lg:gap-16">
+          <div class="reveal" id="experience">
+            <h2 class="mb-8 text-2xl font-bold uppercase tracking-tight text-gray-800">Experience</h2>
+            <div class="relative border-l-2 border-gray-300 pl-8">
+              <article class="relative mb-10">
+                <span class="absolute -left-[41px] mt-1 h-4 w-4 rounded-full border-2 border-gray-500 bg-gray-50"></span>
+                <h3 class="text-lg font-bold text-gray-800">Data &amp; AI Automation Intern</h3>
+                <p class="mt-1 text-sm text-gray-500">AFM Agency, Jun 2025 - Sep 2025</p>
+                <p class="mt-3 text-base leading-relaxed text-gray-500">
+                  Analyzed creator metrics via SQL and Tableau to identify upward GMV trends, driving a strategic pivot in creator acquisition. Built an automated CRM and ETL pipeline using Python and PostgreSQL, enabling scalable segmentation and improving operational efficiency by over 10x.
+                </p>
+              </article>
+
+              <article class="relative mb-10">
+                <span class="absolute -left-[41px] mt-1 h-4 w-4 rounded-full border-2 border-gray-500 bg-gray-50"></span>
+                <h3 class="text-lg font-bold text-gray-800">Data Analyst Intern</h3>
+                <p class="mt-1 text-sm text-gray-500">TikTok, Jun 2023 - Feb 2024</p>
+                <p class="mt-3 text-base leading-relaxed text-gray-500">
+                  Designed A/B tests on funding thresholds to optimize conversion-risk trade-offs. Built real-time BI dashboards with automated anomaly alerts. Analyzed million-level time-series financial data and establishing actionable liquidity early-warning models.
+                </p>
+              </article>
+
+              <article class="relative mb-10">
+                <span class="absolute -left-[41px] mt-1 h-4 w-4 rounded-full border-2 border-gray-500 bg-gray-50"></span>
+                <h3 class="text-lg font-bold text-gray-800">Data Engineer Intern</h3>
+                <p class="mt-1 text-sm text-gray-500">China UnionPay Data, Jul 2022 - Aug 2022</p>
+                <p class="mt-3 text-base leading-relaxed text-gray-500">
+                  Analyzed 10M+ daily transactions using Spark SQL to evaluate merchant fraud risk. Migrated legacy HBase architecture to Hive/Spark, leveraging the new infrastructure to optimize complex ad-hoc queries and drastically reduce daily report generation time.
+                </p>
+              </article>
+
+              <article class="relative">
+                <span class="absolute -left-[41px] mt-1 h-4 w-4 rounded-full border-2 border-gray-500 bg-gray-50"></span>
+                <h3 class="text-lg font-bold text-gray-800">Intern, Assurance Dept.</h3>
+                <p class="mt-1 text-sm text-gray-500">Ernst &amp; Young, Jan 2023 - Feb 2023</p>
+                <p class="mt-3 text-base leading-relaxed text-gray-500">
+                  Conducted comparative statistical analysis on scraped real estate data against corporate book values to highlight potential fraud risks for senior auditors. 
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <div class="reveal" id="skills">
+            <h2 class="mb-8 text-2xl font-bold uppercase tracking-tight text-gray-800">Skills</h2>
+
+            <div>
+              <h3 class="mb-2 font-bold text-rose-500">Programming &amp; AI Modeling</h3>
+              <p class="mb-6 leading-relaxed text-gray-500">
+                Python, R, SQL, SAS, BigQuery, NumPy, TensorFlow, PyTorch, Model Training
+              </p>
+            </div>
+
+            <div>
+              <h3 class="mb-2 font-bold text-rose-500">Statistics Analysis</h3>
+              <p class="mb-6 leading-relaxed text-gray-500">
+                Regression, Hypothesis Testing, A/B Testing, Causal Inference, Experiment Design
+              </p>
+            </div>
+
+            <div>
+              <h3 class="mb-2 font-bold text-rose-500">Tools &amp; Platforms</h3>
+              <p class="mb-6 leading-relaxed text-gray-500">
+                Tableau, Power BI, Excel, PostgreSQL, PySpark, Snowflake, Hive, AWS, Git/GitHub, Azure
+              </p>
+            </div>
+
+            <div>
+              <h3 class="mb-2 font-bold text-rose-500">Agentic AI</h3>
+              <p class="leading-relaxed text-gray-500">
+                AI Agents, LangGraph, RAG, Model Context Protocol (MCP), LLM API Integration, Prompt Engineering, Multi-Agent Systems
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="px-4 py-16 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-4xl">
+        <div class="reveal max-w-3xl">
+          <p class="text-sm font-semibold uppercase tracking-[0.2em] text-gray-700">Portfolio</p>
+          <h2 class="mt-4 text-3xl font-bold tracking-tight text-gray-800 sm:text-4xl">
+            A curated showcase demonstrating applied expertise in statistical inference, predictive modeling, and deep learning architectures across clinical and real-world domains.
+          </h2>
+        </div>
+
+      <div class="mt-12 grid gap-6 md:grid-cols-2">
+        <article class="group reveal relative overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md">
+          <!--  -->
+          <div class="bg-gray-100">
+            <img src="./portfolio-1.jpg" class="w-full object-contain transition duration-500 group-hover:scale-[1.02]" alt="Improving Sentence-BERT with Multi-Layer Feature Fusion">
+          </div>
+          <div class="absolute inset-0 flex items-center justify-center bg-black/75 p-6 text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
+            <h3 class="text-xl font-semibold text-gray-100">Improving Sentence-BERT with Multi-Layer Feature Fusion</h3>
+          </div>
+        </article>
+
+        <article class="group reveal relative overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md">
+          <!--  -->
+          <div class="bg-gray-100">
+            <img src="./portfolio-2.jpg" class="w-full object-contain transition duration-500 group-hover:scale-[1.02]" alt="Primary Biliary Cirrhosis Survival Analysis">
+          </div>
+          <div class="absolute inset-0 flex items-center justify-center bg-black/75 p-6 text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
+            <h3 class="text-xl font-semibold text-gray-100">Primary Biliary Cirrhosis Survival Analysis</h3>
+          </div>
+        </article>
+
+        <article class="group reveal relative overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md">
+          <!--  -->
+          <div class="bg-gray-100">
+            <img src="./portfolio-3.jpg" class="w-full object-contain transition duration-500 group-hover:scale-[1.02]" alt="American Woodcock Prediction Model">
+          </div>
+          <div class="absolute inset-0 flex items-center justify-center bg-black/75 p-6 text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
+            <h3 class="text-xl font-semibold text-gray-100">American Woodcock Prediction Model</h3>
+          </div>
+        </article>
+
+        <article class="group reveal relative overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md">
+          <!--  -->
+          <div class="bg-gray-100">
+            <img src="./portfolio-4.jpg" class="w-full object-contain transition duration-500 group-hover:scale-[1.02]" alt="Siamese Network with Feature Fusion for Visual Object Tracking">
+          </div>
+          <div class="absolute inset-0 flex items-center justify-center bg-black/75 p-6 text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
+            <h3 class="text-xl font-semibold text-gray-100">Siamese Network with Feature Fusion for Visual Object Tracking</h3>
+          </div>
+        </article>
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="px-4 pb-12 pt-8 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-6xl border-t border-gray-200 pt-10 text-center">
+      <div class="reveal">
+        <h2 class="text-3xl font-bold tracking-tight text-gray-800 sm:text-4xl">
+          Let's build something meaningful with data.
+        </h2>
+        <div class="mt-6 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-8">
+          <a href="mailto:w9932501@gmail.com" class="font-medium text-gray-700 transition hover:text-gray-900">
+            w9932501@gmail.com
+          </a>
+          <span class="hidden text-gray-300 sm:inline">•</span>
+          <a
+            href="https://linkedin.com/in/wenjie-owen-wu-26a0b7307"
+            target="_blank"
+            rel="noreferrer"
+            class="font-medium text-gray-700 transition hover:text-gray-900"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuButton = document.getElementById("menu-button");
+    const mobileMenu = document.getElementById("mobile-menu");
+    const navLinks = document.querySelectorAll(".nav-link");
+    const revealElements = document.querySelectorAll(".reveal");
+    const sections = document.querySelectorAll("main section, #about, #experience-skills, #portfolio");
+
+    menuButton.addEventListener("click", () => {
+      const expanded = menuButton.getAttribute("aria-expanded") === "true";
+      menuButton.setAttribute("aria-expanded", String(!expanded));
+      mobileMenu.classList.toggle("hidden");
+    });
+
+    navLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        mobileMenu.classList.add("hidden");
+        menuButton.setAttribute("aria-expanded", "false");
+      });
+    });
+
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+          }
+        });
+      },
+      {
+        threshold: 0.14,
+        rootMargin: "0px 0px -40px 0px"
+      }
+    );
+
+    revealElements.forEach((element) => revealObserver.observe(element));
+
+    const sectionObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          const currentId = entry.target.id;
+          navLinks.forEach((link) => {
+            const isActive = link.getAttribute("href") === `#${currentId}`;
+            link.classList.toggle("bg-gray-100", isActive);
+            link.classList.toggle("text-gray-800", isActive);
+            if (!isActive) {
+              link.classList.remove("bg-gray-100");
+              link.classList.add("text-gray-600");
+            }
+          });
+        });
+      },
+      {
+        threshold: 0.2,
+        rootMargin: "-35% 0px -45% 0px"
+      }
+    );
+
+    sections.forEach((section) => sectionObserver.observe(section));
+  </script>
+</body>
+</html>

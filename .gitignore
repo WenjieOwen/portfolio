@@ -1,0 +1,6 @@
+.DS_Store
+node_modules/
+# Uncompressed source images (kept locally only)
+originals/
+# Local Claude Code preview config
+.claude/
